@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@400;800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  width: 100%;
+  min-height: 100%;
+}
+
+h1,
+h3,
+.info_discord p {
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+h1,
+h3 {
+  font-family: 'Luckiest Guy';
+  text-transform: uppercase;
+}
+
+h2,
+p,
+button {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2,
+p,
+h3,
+.header_buttons button {
+  color: #23272a;
+}
+
+header .header_content .header_buttons button,
+.header_info_discord {
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+header .header_content .header_buttons button,
+.header_info_discord,
+.info_discord p {
+  font-size: 16px;
+}
+
+/* Global header e Main*/
+header .header_content,
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header,
+.discord_channel,
+.discord_community,
+.discord_connection,
+footer {
+  width: 100%;
+}
+
+header .header_content h1,
+.discord_connection .conexao_discord_info h3,
+.discord_connection .conexao_discord_info p {
+  text-align: center;
+}
+
+header .header_content .header_buttons,
+.header_buttons button,
+.header_buttons .header_info_buttons,
+.discord_connection .conexao_discord_info p {
+  height: 44px;
+}
+
+.header_buttons .header_info_buttons,
+footer {
+  background-color: #23272a;
+}
+
+.header_info_discord,
+.header_buttons .header_info_buttons {
+  color: #fff;
+}
+
+.discord_community .info_discord h2,
+.discord_channel .info_discord h2 {
+  margin-top: 118px;
+}
+
+.discord_community .info_discord h2,
+.discord_channel .info_discord h2,
+.discord_servers .info_discord h2,
+.discord_connection .conexao_discord_info h3 {
+  margin-bottom: 1.69rem;
+}
+
+.discord_servers,
+.discord_channel,
+.discord_community {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header .header_content .header_buttons,
+.discord_servers,
+.discord_channel,
+.discord_community,
+.discord_connection {
+  gap: 16px;
+}
+
+.discord_channel,
+.discord_connection {
+  background-color: #f6f6f6;
+}
+
+.discord_channel,
+.discord_community {
+  height: 448px;
+  margin-top: 7rem;
+}
