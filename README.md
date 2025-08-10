@@ -15,7 +15,7 @@ Esse projeto foi proposto pela expert Michele Ambrosio da plataforma educacional
 Site em um Desktop:
 
 <div>
-  <img src="assets/image/projeto_discord.png" alt="Site do Discord em um Desktop">
+  <img src="assets/Image/projeto_discord.png" alt="Site do Discord em um Desktop">
 </div>
 
 <br>
@@ -23,7 +23,7 @@ Site em um Desktop:
 Site em um dispositivo menor, como por exemplo um celular:
 
 <div>
-  <img src="assets/image/projeto_mobile.png" alt="Site do Discord em um dispositivo menor, como por exemplo um celular">
+  <img src="assets/Image/projeto_mobile.png" alt="Site do Discord em um dispositivo menor, como por exemplo um celular">
 </div>
 
 - Venha ver como ficou o projeto acessando [aqui nesse link do GithubPages](https://luizsilvacarvalho.github.io/projeto_discord/)
